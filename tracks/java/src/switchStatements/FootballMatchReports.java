@@ -1,6 +1,6 @@
 package switchStatements;
 
-public class FootballMatchReports {    
+public class FootballMatchReports {
     public static String onField(int shirtNum) {
         switch (shirtNum) {
             case 1:
@@ -8,15 +8,12 @@ public class FootballMatchReports {
             case 2:
                 return "left back";
             case 3:
-                return "center back";
             case 4:
                 return "center back";
             case 5:
                 return "right back";
             case 6:
-                return "midfielder";
             case 7:
-                return "midfielder";
             case 8:
                 return "midfielder";
             case 9:
