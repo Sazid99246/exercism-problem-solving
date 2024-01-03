@@ -8,11 +8,14 @@ public enum LogLevel {
     ERROR(6),
     FATAL(42),
     UNKNOWN(0);
+
     private final Integer typeLog;
-    LogLevel(Integer typeLog){
+
+    LogLevel(Integer typeLog) {
         this.typeLog = typeLog;
     }
-    public Integer getTypeLog(){
+
+    public Integer getTypeLog() {
         return this.typeLog;
     }
 }
