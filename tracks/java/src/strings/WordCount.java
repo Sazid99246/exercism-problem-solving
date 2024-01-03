@@ -20,9 +20,4 @@ public class WordCount {
         return wordsCount;
     }
 
-    public static void main(String[] args) {
-        WordCount wordCount = new WordCount();
-        System.out.println(wordCount.phrase("\"That's the password: 'PASSWORD 123'!\", cried the Special Agent.\\n" + //
-                "So I fled."));
-    }
 }
