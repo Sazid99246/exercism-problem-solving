@@ -7,10 +7,12 @@ public class PigLatinTranslator {
     /**
      * Translates a given English word to Pig Latin.
      * The translation follows specific rules:
-     * Rule 1: If a word begins with a vowel sound, "ay" is added to the end of the word.
-     * Rule 2: If a word begins with a consonant sound, the consonant is moved to the end of the word, followed by "ay".
-     * Rule 3: If a word starts with a consonant sound followed by "qu", both are moved to the end of the word, followed by "ay".
-     * Rule 4: If a word contains a "y" after a consonant cluster or as the second letter in a two-letter word, it is treated as a vowel sound.
+     * <ul>
+     * <li>Rule 1: If a word begins with a vowel sound, "ay" is added to the end of the word.</li>
+     * <li>Rule 2: If a word begins with a consonant sound, the consonant is moved to the end of the word, followed by "ay".</li>
+     * <li>Rule 3: If a word starts with a consonant sound followed by "qu", both are moved to the end of the word, followed by "ay".</li>
+     * <li>Rule 4: If a word contains a "y" after a consonant cluster or as the second letter in a two-letter word, it is treated as a vowel sound.</li>
+     * </ul>
      * @param word the English word to be translated
      * @return the Pig Latin translation of the given word
      */
