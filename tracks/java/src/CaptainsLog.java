@@ -1,7 +1,8 @@
 import java.util.Random;
 
 /**
- * The CaptainsLog class is used to generate random elements for a captain's log in a space exploration context.
+ * The CaptainsLog class is used to generate random elements for a captain's log
+ * in a space exploration context.
  * It can generate random planet classes, ship registry numbers, and stardates.
  */
 public class CaptainsLog {
@@ -9,7 +10,7 @@ public class CaptainsLog {
     /**
      * A list of planet classes
      */
-    private static final char[] PLANET_CLASSES = new char[]{'D', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'T', 'Y'};
+    private static final char[] PLANET_CLASSES = new char[] { 'D', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'T', 'Y' };
 
     /**
      * variable to store the random class
@@ -35,7 +36,8 @@ public class CaptainsLog {
     }
 
     /**
-     * Generates a random ship registry number in the format "NCC-xxxx", where 'xxxx' is a random number.
+     * Generates a random ship registry number in the format "NCC-xxxx", where
+     * 'xxxx' is a random number.
      *
      * @return A string representing a randomly generated ship registry number.
      */
@@ -44,7 +46,8 @@ public class CaptainsLog {
     }
 
     /**
-     * Generates a random stardate. Stardates are fictional time measurements in space exploration.
+     * Generates a random stardate. Stardates are fictional time measurements in
+     * space exploration.
      * This method generates a stardate as a double value within a specific range.
      *
      * @return A double representing a randomly generated stardate.

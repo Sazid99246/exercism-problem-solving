@@ -5,9 +5,20 @@
 public class Badge {
 
     /**
+     * Default constructor for Badge.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Badge() {
+
+    }
+
+    /**
      * Generates a badge information string.
-     * The badge information includes the ID (if present), name, and department of a person.
-     * If the department is not provided, it defaults to "OWNER". The department name is converted to uppercase.
+     * The badge information includes the ID (if present), name, and department of a
+     * person.
+     * If the department is not provided, it defaults to "OWNER". The department
+     * name is converted to uppercase.
      *
      * @param id         the unique identifier for the person, can be null
      * @param name       the name of the person, cannot be null

@@ -12,18 +12,19 @@
  * based on the given conditions. The class is structured to use static methods
  * so that it can be easily
  * called without instantiating the class.
+ * 
  * @author Sheikh Md. Sazidul Islam
  */
 
 public class AnnalynsInfiltration {
-    
+
     /**
      * Default constructor for AnnalynsInfiltration.
      * This constructor doesn't perform any special operations and is provided
      * to create instances of this class if needed.
      */
     public AnnalynsInfiltration() {
-        
+
     }
 
     /**

@@ -1,4 +1,18 @@
+/**
+ * The FootballMatchReports class provides a method to report the position of a
+ * football player based on their shirt number.
+ */
 public class FootballMatchReports {
+
+    /**
+     * Returns the position on the field corresponding to a football player's shirt
+     * number.
+     *
+     * @param shirtNum The shirt number of the football player.
+     * @return A string describing the player's position on the field.
+     * @throws IllegalArgumentException If the shirt number does not correspond to a
+     *                                  recognized position.
+     */
     public static String onField(int shirtNum) {
         switch (shirtNum) {
             case 1:
@@ -21,7 +35,7 @@ public class FootballMatchReports {
             case 11:
                 return "right wing";
             default:
-                throw new IllegalArgumentException();
+                throw new IllegalArgumentException("Invalid shirt number: " + shirtNum);
         }
     }
 }

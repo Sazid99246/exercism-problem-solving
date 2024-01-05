@@ -1,16 +1,35 @@
+/**
+ * The Scrabble class calculates the Scrabble game score for a given word.
+ * Each letter in the word has a point value, and the score is the sum of these
+ * values.
+ */
 public class Scrabble {
 
+    /**
+     * The word for which the Scrabble score will be calculated.
+     */
     private String word;
 
+    /**
+     * Constructs a Scrabble instance with a given word.
+     *
+     * @param word The word to calculate the Scrabble score for.
+     */
     Scrabble(String word) {
         this.word = word;
     }
 
+    /**
+     * Calculates and returns the Scrabble score of the word.
+     * The score is calculated based on standard Scrabble letter values.
+     *
+     * @return The Scrabble score of the word.
+     */
     int getScore() {
         int score = 0;
         for (int i = 0; i < this.word.length(); i++) {
-
-            switch (Character.toUpperCase(this.word.charAt(i))) {
+            char letter = Character.toUpperCase(this.word.charAt(i));
+            switch (letter) {
                 case 'A':
                 case 'E':
                 case 'I':
@@ -22,40 +41,39 @@ public class Scrabble {
                 case 'S':
                 case 'T':
                     score += 1;
-                    continue;
+                    break;
                 case 'D':
                 case 'G':
                     score += 2;
-                    continue;
+                    break;
                 case 'B':
                 case 'C':
                 case 'M':
                 case 'P':
                     score += 3;
-                    continue;
+                    break;
                 case 'F':
                 case 'H':
                 case 'V':
                 case 'W':
                 case 'Y':
                     score += 4;
-                    continue;
+                    break;
                 case 'K':
                     score += 5;
-                    continue;
+                    break;
                 case 'J':
                 case 'X':
                     score += 8;
-                    continue;
+                    break;
                 case 'Q':
                 case 'Z':
                     score += 10;
-                    continue;
+                    break;
                 default:
                     score += 0;
-                    continue;
+                    break;
             }
-
         }
         return score;
     }
