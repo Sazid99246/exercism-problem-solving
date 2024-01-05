@@ -5,7 +5,23 @@
  */
 public class ElonsToyCar {
 
+    /**
+     * Default constructor for ElonsToyCar.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public ElonsToyCar() {
+
+    }
+
+    /**
+     * The total distance driven by the car in meters.
+     */
     private int distanceDriven = 0;
+
+    /**
+     * The current battery status of the car as a percentage.
+     */
     private int batteryStatus = 100;
 
     /**

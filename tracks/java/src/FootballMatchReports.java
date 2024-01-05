@@ -5,6 +5,15 @@
 public class FootballMatchReports {
 
     /**
+     * Default constructor for FootballMatchReports.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public FootballMatchReports() {
+
+    }
+    
+    /**
      * Returns the position on the field corresponding to a football player's shirt
      * number.
      *

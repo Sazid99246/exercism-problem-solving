@@ -9,6 +9,15 @@ public class LanguageList {
     private final List<String> languages = new ArrayList<>();
 
     /**
+     * Default constructor for LanguageList.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public LanguageList() {
+
+    }
+
+    /**
      * Checks if the list of languages is empty.
      *
      * @return {@code true} if the list is empty, {@code false} otherwise.

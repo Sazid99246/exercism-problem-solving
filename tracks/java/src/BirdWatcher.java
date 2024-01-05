@@ -7,7 +7,7 @@
 public class BirdWatcher {
 
     /**
-     * 
+     * an array of bird counts per day
      */
     private final int[] birdsPerDay;
 

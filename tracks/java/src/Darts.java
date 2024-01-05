@@ -5,6 +5,15 @@
 public class Darts {
 
     /**
+     * Default constructor for Darts.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Darts() {
+
+    }
+
+    /**
      * Calculates the score of a dart throw based on its x and y coordinates on the
      * dartboard.
      * The dartboard has different scoring zones:

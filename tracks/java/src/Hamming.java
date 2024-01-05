@@ -5,7 +5,14 @@
  * the number of differences between two strings.
  */
 public class Hamming {
+    /**
+     * The first DNA strand for Hamming distance calculation.
+     */
     private String leftStrand;
+
+    /**
+     * The second DNA strand for Hamming distance calculation.
+     */
     private String rightStrand;
 
     /**

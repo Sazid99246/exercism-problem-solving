@@ -5,6 +5,15 @@
 abstract class Fighter {
 
     /**
+     * Default constructor for Fighter.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Fighter() {
+
+    }
+
+    /**
      * Determines if the fighter is vulnerable.
      *
      * @return {@code true} if the fighter is vulnerable, otherwise {@code false}.

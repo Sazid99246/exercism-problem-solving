@@ -7,6 +7,18 @@ import java.time.LocalDateTime;
  */
 public class Gigasecond {
 
+    /**
+     * Default constructor for Gigasecond.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Gigasecond() {
+
+    }
+
+    /**
+     * The initial date and time from which the gigasecond is added.
+     */
     private LocalDateTime dateTime;
 
     /**

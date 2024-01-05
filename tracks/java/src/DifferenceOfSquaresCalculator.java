@@ -4,6 +4,16 @@
  */
 public class DifferenceOfSquaresCalculator {
 
+
+    /**
+     * Default constructor for DifferenceOfSquaresCalculator.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public DifferenceOfSquaresCalculator() {
+
+    }
+
     /**
      * Computes the square of the sum of the first 'input' natural numbers.
      *

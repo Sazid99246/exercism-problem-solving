@@ -10,6 +10,15 @@ import java.util.regex.Pattern;
 public class WordCount {
 
     /**
+     * Default constructor for WordCount.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public WordCount() {
+
+    }
+
+    /**
      * Counts the frequency of each word in the input phrase.
      * Words are recognized as sequences of one or more characters (letters or
      * apostrophes) bounded by word boundaries.

@@ -9,6 +9,15 @@ import java.math.BigInteger;
 public class Grains {
 
     /**
+     * Default constructor for Grains.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Grains() {
+
+    }
+
+    /**
      * Calculates the number of grains on a specific square of the chessboard.
      * The number of grains doubles on each square, starting with one grain on the
      * first square.
