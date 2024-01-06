@@ -5,6 +5,15 @@
 public class PigLatinTranslator {
 
     /**
+     * Default constructor for PigLatinTranslator.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public PigLatinTranslator() {
+
+    }
+
+    /**
      * Translates a given English word to Pig Latin.
      * The translation follows specific rules:
      * <ul>

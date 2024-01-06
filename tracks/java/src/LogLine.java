@@ -6,6 +6,13 @@ import logLevel.LogLevel;
  * message.
  */
 public class LogLine {
+
+    /**
+     * The complete log line string. This variable stores the entire line of log
+     * information, which is then used to extract specific details such as log
+     * level and message. The format and content of this string are expected to
+     * follow a predetermined log structure.
+     */
     String logLine;
 
     /**

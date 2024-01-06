@@ -6,6 +6,10 @@ import java.util.List;
  * It provides functionalities to add, remove, and query languages in the list.
  */
 public class LanguageList {
+
+    /**
+     * A list of programming languages
+     */
     private final List<String> languages = new ArrayList<>();
 
     /**

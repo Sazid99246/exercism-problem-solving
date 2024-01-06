@@ -6,6 +6,15 @@
  */
 public class Leap {
 
+     /**
+     * Default constructor for Leap.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Leap() {
+
+    }
+
     /**
      * Determines if a given year is a leap year.
      * A year is a leap year if it is divisible by 4 but not by 100, except for

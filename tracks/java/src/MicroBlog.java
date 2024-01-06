@@ -7,6 +7,15 @@
 public class MicroBlog {
 
     /**
+     * Default constructor for Microblog.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public MicroBlog() {
+
+    }
+
+    /**
      * Truncates a given string to a length that does not exceed the first 5 code
      * points.
      * If the input string is shorter than or equal to 5 code points, it is returned

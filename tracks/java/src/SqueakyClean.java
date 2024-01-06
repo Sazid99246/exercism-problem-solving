@@ -5,6 +5,16 @@
  * characters.
  */
 public class SqueakyClean {
+
+    /**
+     * Default constructor for SqueakyClean.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public SqueakyClean() {
+
+    }
+
     /**
      * Cleans the provided string identifier according to specific rules.
      * Spaces are replaced with underscores, ISO control characters are replaced

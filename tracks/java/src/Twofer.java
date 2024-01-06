@@ -7,6 +7,15 @@
 public class Twofer {
 
     /**
+     * Default constructor for Twofer.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Twofer() {
+
+    }
+
+    /**
      * Generates a phrase "One for X, one for me.".
      * If the provided name is null, X is replaced with "you".
      *

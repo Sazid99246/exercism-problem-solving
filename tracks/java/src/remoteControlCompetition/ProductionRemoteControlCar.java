@@ -9,6 +9,15 @@ package remoteControlCompetition;
  * competitions.
  */
 public class ProductionRemoteControlCar implements RemoteControlCar, Comparable<ProductionRemoteControlCar> {
+
+    /**
+     * Default constructor for ProductionRemoteControlCar.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public ProductionRemoteControlCar() {
+
+    }
     /**
      * The distance traveled by the car.
      */

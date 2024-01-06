@@ -9,6 +9,15 @@ package logLevel;
 public class LogLevels {
 
     /**
+     * Default constructor for LofLevels.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public LogLevels() {
+
+    }
+
+    /**
      * Extracts and returns the message from a log line.
      *
      * @param logLine The log line from which the message is to be extracted.

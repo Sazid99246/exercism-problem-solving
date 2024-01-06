@@ -3,6 +3,14 @@
  * preparation and cooking of lasagna.
  */
 public class Lasagna {
+    /**
+     * Default constructor for Lasagna.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Lasagna() {
+
+    }
 
     /**
      * Returns the standard expected oven time in minutes for cooking lasagna.

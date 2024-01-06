@@ -12,6 +12,15 @@
 public class Markdown {
 
     /**
+     * Default constructor for Markdown.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Markdown() {
+
+    }
+
+    /**
      * Parses the given markdown string and returns the corresponding HTML.
      * 
      * @param markdown The markdown string to parse.
@@ -65,6 +74,9 @@ public class Markdown {
 
     /**
      * Parses headers.
+     * 
+     * @param markdown The markdown line to present headers.
+     * @return The HTML representation of the headers.
      */
     private String parseHeader(String markdown) {
         int count = 0;
@@ -80,6 +92,9 @@ public class Markdown {
 
     /**
      * Parses list items.
+     * 
+     * @param markdown The markdown list item to parse.
+     * @return The HTML representation of the list item.
      */
     private String parseListItem(String markdown) {
         if (markdown.startsWith("*")) {
@@ -90,6 +105,9 @@ public class Markdown {
 
     /**
      * Parses paragraphs.
+     * 
+     * @param markdown The markdown paragraph to parse.
+     * @return The HTML representation of the paragraph.
      */
     private String parseParagraph(String markdown) {
         return "<p>" + parseSomeSymbols(markdown) + "</p>";
@@ -97,6 +115,9 @@ public class Markdown {
 
     /**
      * Parses bold and italic symbols.
+     * 
+     * @param markdown The markdown content containing symbols.
+     * @return The HTML representation of the markdown.
      */
     private String parseSomeSymbols(String markdown) {
         markdown = markdown.replaceAll("__(.+)__", "<strong>$1</strong>");
@@ -105,6 +126,10 @@ public class Markdown {
 
     /**
      * Checks if a line is a list item.
+     * 
+     * @param line The markdown line to check.
+     * @return true if the line is a list item
+     *         false otherwise.
      */
     private boolean isListItem(String line) {
         return line != null && line.startsWith("<li>");

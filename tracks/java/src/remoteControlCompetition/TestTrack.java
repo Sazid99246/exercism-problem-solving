@@ -12,6 +12,15 @@ import java.util.Collections;
 public class TestTrack {
 
     /**
+     * Default constructor for TestTrack.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public TestTrack() {
+
+    }
+
+    /**
      * Simulates a race for the given remote control car.
      * This method calls the drive method of the provided RemoteControlCar.
      * 

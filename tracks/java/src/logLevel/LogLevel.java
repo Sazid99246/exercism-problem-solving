@@ -6,16 +6,43 @@ package logLevel;
  * severity or importance.
  */
 public enum LogLevel {
-    TRACE(1), // Represents fine-grained informational events
-    DEBUG(2), // Represents general debugging information
-    INFO(4), // Represents informational messages that highlight the progress of the
-             // application
-    WARNING(5), // Represents potentially harmful situations
-    ERROR(6), // Represents error events that might still allow the application to continue
-              // running
-    FATAL(42), // Represents very severe error events that will presumably lead the application
-               // to abort
-    UNKNOWN(0); // Represents an unknown log level
+    /**
+     * Represents fine-grained informational events
+     */
+    TRACE(1),
+ 
+    /**
+     * Represents general debugging information
+     */
+    DEBUG(2),
+ 
+    /**
+     * Represents informational messages that highlight the progress of the
+     * application
+     */
+    INFO(4),
+ 
+    /**
+     * Represents potentially harmful situations
+     */
+    WARNING(5),
+ 
+    /**
+     * Represents error events that might still allow the application to continue
+     * running
+     */
+    ERROR(6),
+ 
+    /**
+     * Represents very severe error events that will presumably lead the application
+     * to abort
+     */
+    FATAL(42),
+ 
+    /**
+     * Represents an unknown log level
+     */
+    UNKNOWN(0);
 
     /**
      * The integer value associated with the log level.

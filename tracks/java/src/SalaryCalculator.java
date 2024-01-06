@@ -7,6 +7,14 @@
 public class SalaryCalculator {
 
     /**
+     * Default constructor for SalaryCalculator.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public SalaryCalculator() {
+
+    }
+    /**
      * Calculates the salary multiplier based on the number of days skipped.
      * A deduction is applied if the employee skips 5 or more days.
      *
