@@ -5,15 +5,6 @@
 public class Acronym {
 
     /**
-     * Default constructor for Acronym.
-     * This constructor doesn't perform any special operations and is provided
-     * to create instances of this class if needed.
-     */
-    public Acronym() {
-
-    }
-
-    /**
      * The phrase from which the acronym will be created.
      */
     private String phrase;
