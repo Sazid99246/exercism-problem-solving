@@ -8,6 +8,15 @@ import java.util.List;
 public class PrimeFactorsCalculator {
 
     /**
+     * Default constructor for PrimeFactorsCalculator.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public PrimeFactorsCalculator() {
+
+    }
+
+    /**
      * Calculates and returns the list of prime factors of the specified number.
      * 
      * @param number the number to find the prime factors of.

@@ -16,6 +16,15 @@ import java.util.HashMap;
 public class WordProblemSolver {
 
     /**
+     * Default constructor for WordProblemSolver.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public WordProblemSolver() {
+
+    }
+
+    /**
      * A map of supported arithmetic operations represented in word form and their
      * corresponding
      * mathematical symbols.

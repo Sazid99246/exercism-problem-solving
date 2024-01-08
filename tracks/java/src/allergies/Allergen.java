@@ -7,13 +7,37 @@ package allergies;
  * the {@code Allergies} class.
  */
 public enum Allergen {
+    /**
+     * Allergy score associated with eggs
+     */
     EGGS(1),
+    /**
+     * Allergy score associated with peanuts
+     */
     PEANUTS(2),
+    /**
+     * Allergy score associated with shellfish
+     */
     SHELLFISH(4),
+    /**
+     * Allergy score associated with strawberry
+     */
     STRAWBERRIES(8),
+    /**
+     * Allergy score associated with tomato
+     */
     TOMATOES(16),
+    /**
+     * Allergy score associated with chocolate
+     */
     CHOCOLATE(32),
+    /**
+     * Allergy score associated with pollen
+     */
     POLLEN(64),
+    /**
+     * Allergy score associated with cat
+     */
     CATS(128);
 
     /**

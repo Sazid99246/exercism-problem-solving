@@ -9,6 +9,16 @@ import java.util.HashSet;
  * unique name will be generated upon request.
  */
 public class Robot {
+
+    /**
+     * Default constructor for Robot.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Robot() {
+
+    }
+
     /**
      * A HashSet to keep track of all used robot names to ensure uniqueness.
      */

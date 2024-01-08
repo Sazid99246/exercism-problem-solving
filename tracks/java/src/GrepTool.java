@@ -11,6 +11,16 @@ import java.util.stream.IntStream;
  * searches for lines in files that match a given pattern.
  */
 public class GrepTool {
+
+    /**
+     * Default constructor for GrepTool.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public GrepTool() {
+
+    }
+
     /**
      * Inverts the program and collect all lines that will fail to match
      */

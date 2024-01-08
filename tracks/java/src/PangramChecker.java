@@ -6,6 +6,15 @@
 public class PangramChecker {
 
     /**
+     * Default constructor for PangramChecker.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public PangramChecker() {
+
+    }
+
+    /**
      * Checks if the input string is a pangram.
      *
      * @param input The input string to be checked.
