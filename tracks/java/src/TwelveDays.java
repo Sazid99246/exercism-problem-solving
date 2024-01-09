@@ -1,4 +1,24 @@
-class TwelveDays {
+/**
+ * The {@code TwelveDays} class represents a utility for generating the lyrics
+ * of the "Twelve Days of Christmas" song. It provides methods to retrieve individual verses,
+ * a range of verses, or the entire song.
+ */
+public class TwelveDays {
+
+    /**
+     * Default constructor for TwelveDays.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public TwelveDays() {
+
+    }
+
+    /**
+     * Generates the full set of lyrics for the "Twelve Days of Christmas" song.
+     * 
+     * @return An array of strings, each representing a verse of the song.
+     */
     private String[] song() {
         String[] song = new String[] {
                 "On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.",
@@ -16,7 +36,13 @@ class TwelveDays {
         };
         return song;
     }
-
+    
+    /**
+     * Retrieves a specific verse from the "Twelve Days of Christmas" song.
+     * 
+     * @param verseNumber The verse number to retrieve.
+     * @return The lyrics of the specified verse.
+     */
     String verse(int verseNumber) {
         String text = "";
         String[] songWords = song();
@@ -24,6 +50,13 @@ class TwelveDays {
         return text;
     }
 
+    /**
+     * Retrieves a range of verses from the "Twelve Days of Christmas" song.
+     * 
+     * @param startVerse The starting verse number.
+     * @param endVerse The ending verse number.
+     * @return The lyrics of the verses in the specified range, each followed by a newline character.
+     */
     String verses(int startVerse, int endVerse) {
         String text = "";
         String[] songWords = song();
@@ -33,6 +66,11 @@ class TwelveDays {
         return text + songWords[endVerse - 1] + "\n";
     }
 
+    /**
+     * Generates the lyrics for the entire "Twelve Days of Christmas" song.
+     * 
+     * @return The full song lyrics.
+     */
     String sing() {
         String[] songWords = song();
         String text = "";
