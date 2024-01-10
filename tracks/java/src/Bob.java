@@ -5,6 +5,15 @@
 public class Bob {
 
     /**
+     * Default constructor for Bob.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public Bob() {
+
+    }
+
+    /**
      * Checks if a given string is considered shouting.
      * A string is considered shouting if it contains at least one letter
      * and all letters are in uppercase.
