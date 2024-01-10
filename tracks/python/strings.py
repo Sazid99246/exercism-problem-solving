@@ -2,6 +2,7 @@
 
 import string
 
+
 def add_prefix_un(word):
     """Take the given word and add the 'un' prefix.
 
@@ -16,12 +17,10 @@ def make_word_groups(vocab_words):
     """Transform a list containing a prefix and words into a string with the prefix followed by the words with prefix prepended.
 
     :param vocab_words: list - of vocabulary words with prefix in first index.
-    :return: str - of prefix followed by vocabulary words with
-            prefix applied.
+    :return: str - of prefix followed by vocabulary words with prefix applied.
 
     This function takes a `vocab_words` list and returns a string
-    with the prefix and the words with prefix applied, separated
-     by ' :: '.
+    with the prefix and the words with prefix applied, separated by ' :: '.
 
     For example: list('en', 'close', 'joy', 'lighten'),
     produces the following string: 'en :: enclose :: enjoy :: enlighten'.
@@ -52,4 +51,4 @@ def adjective_to_verb(sentence, index):
     For example, ("It got dark as the sun set.", 2) becomes "darken".
     """
 
-    return sentence.split()[index][:-1] + "en"  if sentence.split()[index][-1] not in string.ascii_lowercase and sentence.split()[index][-1] not in string.ascii_uppercase else sentence.split()[index] + "en"
+    return sentence.split()[index][:-1] + "en" if sentence.split()[index][-1] not in string.ascii_lowercase and sentence.split()[index][-1] not in string.ascii_uppercase else sentence.split()[index] + "en"
