@@ -5,6 +5,15 @@
  */
 public class PrimeCalculator {
 
+     /**
+     * Default constructor for AnnalynsInfiltration.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public PrimeCalculator() {
+
+    }
+
     /**
      * Finds the nth prime number.
      * 
