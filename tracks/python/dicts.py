@@ -7,7 +7,7 @@ def create_inventory(items):
     :param items: list - list of items to create an inventory from.
     :return: dict - the inventory dictionary.
     """
-    
+
     return add_items({}, items)
 
 
