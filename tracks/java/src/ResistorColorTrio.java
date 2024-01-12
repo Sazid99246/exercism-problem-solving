@@ -1,6 +1,12 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * This class is used to calculate the resistance value of a resistor based on
+ * the color bands.
+ * It supports standard resistor color codes and calculates values in ohms,
+ * kiloohms, megaohms, and gigaohms.
+ */
 public class ResistorColorTrio {
 
     /**
@@ -9,8 +15,10 @@ public class ResistorColorTrio {
     private Map<String, Integer> colorCodeMap;
 
     /**
-     * Constructs a ResistorColorDuo instance and initializes the map with standard
-     * resistor colors and their codes.
+     * Constructs a ResistorColorTrio instance and initializes the map with standard
+     * resistor colors and their numeric values.
+     * The colors supported are black, brown, red, orange, yellow, green, blue,
+     * violet, grey, and white.
      */
     public ResistorColorTrio() {
         colorCodeMap = new LinkedHashMap<>();
@@ -26,7 +34,29 @@ public class ResistorColorTrio {
         colorCodeMap.put("white", 9);
     }
 
-    String label(String[] colors) {
+    /**
+     * Calculates the resistance value of a resistor based on its color bands.
+     * The first two color bands are used to form the base resistance value,
+     * while the third color band determines the multiplier (number of zeros to
+     * add).
+     * The method handles the conversion of the resistance value into appropriate
+     * units
+     * (ohms, kiloohms, megaohms, or gigaohms) based on its magnitude.
+     *
+     * @param colors An array of strings representing the color bands on the
+     *               resistor.
+     *               This array must contain exactly three elements, each
+     *               corresponding
+     *               to a valid color code (black, brown, red, orange, yellow,
+     *               green, blue, violet, grey, white).
+     * @return A string representing the resistance value with its appropriate unit.
+     *         For example, "4700 ohms", "47 kiloohms", "4.7 megaohms", etc.
+     * @throws IllegalArgumentException if the input array does not contain exactly
+     *                                  three color codes,
+     *                                  or if any of the provided colors are not
+     *                                  valid resistor colors.
+     */
+    public String label(String[] colors) {
         if (colors.length < 3) {
             throw new IllegalArgumentException("Three color values are required.");
         }
