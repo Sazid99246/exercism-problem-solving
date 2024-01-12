@@ -13,6 +13,15 @@ import java.util.Optional;
 public class ErrorHandling {
 
     /**
+     * Default constructor for ErrorHandling.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public ErrorHandling() {
+
+    }
+
+    /**
      * Throws an {@code IllegalArgumentException} without a message.
      * This method demonstrates the simplest form of throwing an unchecked
      * exception.

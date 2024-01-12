@@ -10,6 +10,15 @@ import java.util.List;
 public class DiamondPrinter {
 
     /**
+     * Default constructor for DiamondPrinter.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public DiamondPrinter() {
+
+    }
+
+    /**
      * Generates a diamond pattern in the form of a list of strings, with the
      * specified end letter as the widest point.
      *
