@@ -10,6 +10,15 @@
 public class IsbnVerifier {
 
     /**
+     * Default constructor for IsbnVerifier.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public IsbnVerifier() {
+
+    }
+
+    /**
      * Checks if the provided string is a valid ISBN-10.
      * 
      * The method first removes any hyphens from the string and then checks if the

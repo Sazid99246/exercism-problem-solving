@@ -8,6 +8,15 @@ import java.util.List;
 public class KillerSudokuHelper {
 
     /**
+     * Default constructor for KillerSudokuHelper.
+     * This constructor doesn't perform any special operations and is provided
+     * to create instances of this class if needed.
+     */
+    public KillerSudokuHelper() {
+
+    }
+
+    /**
      * Generates all possible combinations of numbers that sum up to a specified
      * cage sum,
      * with a given cage size, excluding certain numbers.
