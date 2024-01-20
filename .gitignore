@@ -369,3 +369,7 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 .metals/
+
+*.class
+*.log
+hs_err_pid*
