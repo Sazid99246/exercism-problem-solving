@@ -1,2 +1,4 @@
+from math import sqrt
+
 def square_root(number):
-    pass
+    return sqrt(number)
