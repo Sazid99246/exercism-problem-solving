@@ -1,9 +1,3 @@
-// @ts-check
-//
-// The line above enables type checking for this file. Various IDEs interpret
-// the @ts-check directive. It will give you helpful autocompletion when
-// implementing this exercise.
-
 /**
  * Create a function that returns a function making use of a closure to
  * perform a repeatable 2d translation of a coordinate pair.
