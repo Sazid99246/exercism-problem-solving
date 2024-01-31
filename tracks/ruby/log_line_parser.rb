@@ -15,6 +15,3 @@ class LogLineParser
       message + " (" + "" + log_level + ")"
     end
 end
-puts LogLineParser.new('[ERROR]: Invalid operation').message;
-puts LogLineParser.new('[ERROR]: Invalid operation').log_level;
-puts LogLineParser.new('[ERROR]: Invalid operation').reformat;
