@@ -25,4 +25,4 @@ class AssemblyLine
     def working_items_per_minute
         (production_rate_per_hour/60).to_i
     end
-end  
+end
