@@ -3,5 +3,3 @@ module Reverser
     s.reverse
   end
 end
-
-puts Reverser.reverse("abc")
